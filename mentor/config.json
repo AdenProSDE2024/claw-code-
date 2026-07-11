@@ -1,0 +1,6 @@
+{
+  "tz_offset_hours": 8,
+  "due_soon_days": 3,
+  "stale_days": 7,
+  "max_active_p0": 2
+}

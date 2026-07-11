@@ -1,0 +1,40 @@
+name: Mentor TODO Check
+
+on:
+  schedule:
+    # UTC 01:00 / 12:00 = 北京时间 09:00 / 20:00,每天早晚各催一次
+    - cron: "0 1,12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  mentor-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # git blame 需要完整历史来判断任务停滞天数
+
+      - name: Run mentor check
+        run: python3 mentor/mentor.py > report.md
+
+      - name: Post report to issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="🧭 Mentor 督促报告"
+          NUMBER=$(gh issue list --repo "$GITHUB_REPOSITORY" \
+            --label mentor-report --state open --json number --jq '.[0].number // empty')
+          if [ -z "$NUMBER" ]; then
+            gh label create mentor-report --repo "$GITHUB_REPOSITORY" \
+              --description "Mentor 系统自动报告" --color 1D76DB || true
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "$TITLE" --label mentor-report --body-file report.md
+          else
+            gh issue edit "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file report.md
+            gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" \
+              --body "🔔 $(date -u '+%Y-%m-%d %H:%M') UTC 的检查已完成,最新报告见 Issue 正文。"
+          fi
