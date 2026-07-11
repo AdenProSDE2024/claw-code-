@@ -19,7 +19,10 @@ jobs:
           fetch-depth: 0  # git blame 需要完整历史来判断任务停滞天数
 
       - name: Run mentor check
-        run: python3 mentor/mentor.py > report.md
+        run: |
+          python3 mentor/mentor.py > report.md
+          echo "" >> report.md
+          python3 mentor/tracker.py report >> report.md
 
       - name: Post report to issue
         env:

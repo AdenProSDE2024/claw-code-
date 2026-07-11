@@ -1,0 +1,4 @@
+{"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "示例任务:给 Mentor 系统填入你的第一个真实任务", "due": "2026-07-14", "prio": "P0", "done": false}
+{"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "示例任务:一个还没定截止日期的任务(Mentor 会催你定日期)", "due": null, "prio": "P1", "done": false}
+{"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "示例任务:下周要启动的事情", "due": "2026-07-20", "prio": "P2", "done": false}
+{"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "搭建 Mentor 系统", "due": "2026-07-11", "prio": "P0", "done": true}
