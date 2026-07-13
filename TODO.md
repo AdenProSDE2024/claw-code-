@@ -17,6 +17,8 @@
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-14) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-14) @prio(P1)
 - [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-14) @prio(P1)
+- [ ] 更新 Monad 的 business stack @due(2026-07-14) @prio(P1)
+- [ ] 整理 Crypto VC potential lead 名单 @due(2026-07-14) @prio(P1)
 - [ ] bznz deck:评估并按需修改 @due(2026-07-14) @prio(P2)
 
 ## 每日跟进(确认当天已跟进后,@due 顺延到下一个跟进日)

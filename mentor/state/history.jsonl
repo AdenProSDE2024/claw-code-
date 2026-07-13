@@ -29,3 +29,5 @@
 {"ts": "2026-07-13T16:15:34Z", "event": "due_changed", "task": "Monet deal 配套协议(美国侧):每天 10:00 PT 左右 check 进度", "from": "2026-07-17", "to": "2026-07-14"}
 {"ts": "2026-07-13T16:15:34Z", "event": "due_changed", "task": "STBL MOU:每 48 小时 check 一次进展", "from": "2026-07-17", "to": "2026-07-15"}
 {"ts": "2026-07-13T16:15:34Z", "event": "removed", "task": "SBC 月底活动:本周内发出全部嘉宾邀请", "was_done": false}
+{"ts": "2026-07-13T17:36:25Z", "event": "added", "task": "更新 Monad 的 business stack", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-13T17:36:25Z", "event": "added", "task": "整理 Crypto VC potential lead 名单", "due": "2026-07-14", "prio": "P1", "done": false}
