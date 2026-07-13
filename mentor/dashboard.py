@@ -7,6 +7,7 @@
 
 import html
 import sys
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -63,7 +64,14 @@ ul.tasks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 li.task{background:var(--surface);border:1px solid var(--line);border-radius:8px;
   padding:12px 14px;display:flex;gap:12px;align-items:baseline}
 li.task .box{flex:none;width:15px;height:15px;border:1.5px solid var(--ink-3);
-  border-radius:4px;position:relative;top:2px}
+  border-radius:4px;position:relative;top:2px;display:inline-block}
+a.box:hover,a.box:focus-visible{border-color:var(--accent);outline:none;
+  box-shadow:0 0 0 3px var(--accent-soft)}
+.acts{display:flex;gap:6px;flex:none}
+.act{font-size:12px;font-weight:600;color:var(--accent);background:var(--accent-soft);
+  border:none;border-radius:6px;padding:3px 9px;cursor:pointer;text-decoration:none;
+  font-family:inherit;white-space:nowrap}
+.act:hover,.act:focus-visible{filter:brightness(.94);outline:none}
 li.task.done .box{background:var(--green);border-color:var(--green)}
 li.task.done .box::after{content:"✓";position:absolute;inset:-3px 0 0 2px;color:#fff;font-size:11px}
 li.task .t{flex:1;min-width:0}
@@ -124,12 +132,33 @@ def chip_for(t, today):
     return f'<span class="chip plain">{t["days_left"]} 天后</span>'
 
 
+def dispatch_prompt(t):
+    due = f",截止 {t['due']}" if t["due"] else ""
+    prio = f",优先级 {t['prio']}" if t["prio"] else ""
+    return ("你在仓库 AdenProSDE2024/claw-code-(Mentor TODO 系统,规则见 CLAUDE.md;"
+            "若当前目录没有这个仓库,先向我确认本地路径或克隆)。"
+            f"我要执行任务:「{t['title']}」{due}{prio}。"
+            "第一步:先把完成这个任务所需的关键 context 一次性问齐(背景、涉及的人、已有素材、成功标准、格式要求)。"
+            "第二步:根据我的回答帮我执行或起草,文字成果放进仓库 drafts/ 目录。"
+            "第三步:完成后把 TODO.md 中这条任务标记为 [x],运行 python3 mentor/tracker.py record,commit 并 push。")
+
+
 def li(t, today):
     prio = f'<span class="chip p0">{t["prio"]}</span>' if t["prio"] == "P0" and not t["done"] else ""
     due = f'<span class="due">{t["due"][5:]}</span>' if t["due"] else ""
-    return (f'<li class="task{" done" if t["done"] else ""}"><span class="box"></span>'
+    if t["done"]:
+        box, acts = '<span class="box"></span>', ""
+    else:
+        box = (f'<a class="box" href="{CHECKLIST_URL}" target="_blank" rel="noopener"'
+               ' title="去 Checklist 勾选完成" aria-label="去 Checklist 勾选完成"></a>')
+        p = dispatch_prompt(t)
+        link = "claude-cli://open?repo=AdenProSDE2024/claw-code-&q=" + urllib.parse.quote(p)
+        acts = (f'<span class="acts"><a class="act" href="{link}" title="在本机 Claude Code 新会话中执行">▶ 派单</a>'
+                f'<button class="act copy" data-p="{html.escape(p, quote=True)}"'
+                ' title="复制派单提示词,粘贴到 Cowork">⧉ 复制</button></span>')
+    return (f'<li class="task{" done" if t["done"] else ""}">{box}'
             f'<span class="t">{html.escape(t["title"])}</span>'
-            f'<span class="meta">{prio}{chip_for(t, today)}{due}</span></li>')
+            f'<span class="meta">{prio}{chip_for(t, today)}{due}</span>{acts}</li>')
 
 
 def main():
@@ -194,9 +223,18 @@ def main():
 </div></section>
 <footer>
   <span><a href="{CHECKLIST_URL}">✅ 去 Checklist 勾任务</a></span>
-  <span>由 mentor/dashboard.py 生成</span>
+  <span>▶ 派单 = 本机 Claude Code · ⧉ 复制 = 粘贴到 Cowork</span>
 </footer>
 </div>"""
+    body += """
+<script>
+document.querySelectorAll("button.copy").forEach(function(b){
+  b.addEventListener("click", async function(){
+    try{ await navigator.clipboard.writeText(b.dataset.p); }catch(e){}
+    var o=b.textContent; b.textContent="✓ 已复制"; setTimeout(function(){b.textContent=o;},1400);
+  });
+});
+</script>"""
     out.write_text(body, encoding="utf-8")
     print(f"{out} ({len(tasks)} tasks, {pct}% done)")
 
