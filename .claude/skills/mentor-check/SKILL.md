@@ -47,7 +47,16 @@ git add TODO.md mentor/state && git commit -m "chore(mentor): hourly check recor
 
 **静音规则**:当地 22:00–08:00 不推送;距上条推送不足 4 小时或当天已推过相同内容则跳过。
 
-## 6. 向用户汇报(简短)
+## 6. 刷新仪表盘(若会话有 Artifact 工具)
+
+```bash
+python3 mentor/dashboard.py <scratchpad>/mentor-dashboard.html
+```
+
+然后用 Artifact 工具发布,**传 url 参数指向固定地址**以更新同一页面:
+`https://claude.ai/code/artifact/5b3d650d-b569-47ac-8491-d3e2368264ab`(favicon 🧭)
+
+## 7. 向用户汇报(简短)
 
 - 变化摘要(来自 tracker record 输出)
 - 挑 1–2 个最关键任务提**具体**问题,优先级:逾期 > 今天到期 > 停滞 > 进行中 P0
