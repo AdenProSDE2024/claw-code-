@@ -2,9 +2,16 @@
 
 > 这是 Mentor 系统监督的待办清单。格式规范见文末,Mentor 会定时检查这里的每一项。
 
+## 每日跟进(进行中的 deal)
+
+- [ ] Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度 @due(2026-07-17) @prio(P1)
+- [ ] Monet deal 配套协议(美国侧):每天 10:00 PT 左右 check 进度 @due(2026-07-17) @prio(P1)
+
 ## 进行中
 
 - [ ] 投资人季度小结 ×2(今天 17:00 前完成,已上日历) @due(2026-07-13) @prio(P0)
+- [ ] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)
+- [ ] Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况 @due(2026-07-14) @prio(P1)
 - [ ] SBC 月底活动:本周内发出全部嘉宾邀请 @due(2026-07-17) @prio(P0)
 - [ ] 拿到 Rich 对 SBC 月底活动的明确支持 @due(2026-07-15) @prio(P1)
 - [ ] 按上周反馈修改 deck @due(2026-07-15) @prio(P1)

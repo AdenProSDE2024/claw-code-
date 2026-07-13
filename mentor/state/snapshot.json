@@ -1,11 +1,35 @@
 {
-  "updated_at": "2026-07-13T14:52:04Z",
+  "updated_at": "2026-07-13T15:30:29Z",
   "tasks": {
+    "Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P1",
+      "first_seen": "2026-07-13T15:30:29Z"
+    },
+    "Monet deal 配套协议(美国侧):每天 10:00 PT 左右 check 进度": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P1",
+      "first_seen": "2026-07-13T15:30:29Z"
+    },
     "投资人季度小结 ×2(今天 17:00 前完成,已上日历)": {
       "done": false,
       "due": "2026-07-13",
       "prio": "P0",
       "first_seen": "2026-07-13T14:52:04Z"
+    },
+    "邮件确认视频能否发出(配合 Fidelity 宣发)": {
+      "done": false,
+      "due": "2026-07-13",
+      "prio": "P1",
+      "first_seen": "2026-07-13T15:30:29Z"
+    },
+    "Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-13T15:30:29Z"
     },
     "SBC 月底活动:本周内发出全部嘉宾邀请": {
       "done": false,
