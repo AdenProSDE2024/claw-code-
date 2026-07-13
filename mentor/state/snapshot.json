@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T15:30:29Z",
+  "updated_at": "2026-07-13T16:02:48Z",
   "tasks": {
     "Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度": {
       "done": false,
@@ -12,6 +12,12 @@
       "due": "2026-07-17",
       "prio": "P1",
       "first_seen": "2026-07-13T15:30:29Z"
+    },
+    "STBL MOU:每 48 小时 check 一次进展": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P1",
+      "first_seen": "2026-07-13T16:02:48Z"
     },
     "投资人季度小结 ×2(今天 17:00 前完成,已上日历)": {
       "done": false,

@@ -6,6 +6,7 @@
 
 - [ ] Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度 @due(2026-07-17) @prio(P1)
 - [ ] Monet deal 配套协议(美国侧):每天 10:00 PT 左右 check 进度 @due(2026-07-17) @prio(P1)
+- [ ] STBL MOU:每 48 小时 check 一次进展 @due(2026-07-17) @prio(P1)
 
 ## 进行中
 
