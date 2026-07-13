@@ -2,3 +2,14 @@
 {"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "示例任务:一个还没定截止日期的任务(Mentor 会催你定日期)", "due": null, "prio": "P1", "done": false}
 {"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "示例任务:下周要启动的事情", "due": "2026-07-20", "prio": "P2", "done": false}
 {"ts": "2026-07-11T14:58:57Z", "event": "added", "task": "搭建 Mentor 系统", "due": "2026-07-11", "prio": "P0", "done": true}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "投资人季度小结 ×2(今天 17:00 前完成,已上日历)", "due": "2026-07-13", "prio": "P0", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "SBC 月底活动:本周内发出全部嘉宾邀请", "due": "2026-07-17", "prio": "P0", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "拿到 Rich 对 SBC 月底活动的明确支持", "due": "2026-07-15", "prio": "P1", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "按上周反馈修改 deck", "due": "2026-07-15", "prio": "P1", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "Solana 社区活动赞助落定", "due": "2026-07-17", "prio": "P1", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "SBC 活动物料:开始制作或明确制作时间线", "due": "2026-07-16", "prio": "P1", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "起草权益保护协议(保护迄今为止应得的权益)", "due": "2026-07-17", "prio": "P1", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "added", "task": "bznz deck:评估并按需修改", "due": "2026-07-16", "prio": "P2", "done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "completed", "task": "示例任务:给 Mentor 系统填入你的第一个真实任务", "days_open": 1}
+{"ts": "2026-07-13T14:52:04Z", "event": "removed", "task": "示例任务:一个还没定截止日期的任务(Mentor 会催你定日期)", "was_done": false}
+{"ts": "2026-07-13T14:52:04Z", "event": "removed", "task": "示例任务:下周要启动的事情", "was_done": false}
