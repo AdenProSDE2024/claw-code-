@@ -1,17 +1,29 @@
 {
-  "updated_at": "2026-07-13T17:36:25Z",
+  "updated_at": "2026-07-13T17:47:07Z",
   "tasks": {
-    "投资人季度小结 ×2(今天 17:00 前完成,已上日历)": {
+    "更新 Monad 的 business stack": {
       "done": false,
       "due": "2026-07-13",
       "prio": "P0",
-      "first_seen": "2026-07-13T14:52:04Z"
+      "first_seen": "2026-07-13T17:36:25Z"
+    },
+    "整理 Crypto VC potential lead 名单": {
+      "done": false,
+      "due": "2026-07-13",
+      "prio": "P1",
+      "first_seen": "2026-07-13T17:36:25Z"
     },
     "邮件确认视频能否发出(配合 Fidelity 宣发)": {
       "done": false,
       "due": "2026-07-13",
       "prio": "P1",
       "first_seen": "2026-07-13T15:30:29Z"
+    },
+    "投资人季度小结 ×2": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-13T17:47:07Z"
     },
     "SBC 月底活动:发出全部嘉宾邀请": {
       "done": false,
@@ -54,18 +66,6 @@
       "due": "2026-07-14",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
-    },
-    "更新 Monad 的 business stack": {
-      "done": false,
-      "due": "2026-07-14",
-      "prio": "P1",
-      "first_seen": "2026-07-13T17:36:25Z"
-    },
-    "整理 Crypto VC potential lead 名单": {
-      "done": false,
-      "due": "2026-07-14",
-      "prio": "P1",
-      "first_seen": "2026-07-13T17:36:25Z"
     },
     "bznz deck:评估并按需修改": {
       "done": false,
