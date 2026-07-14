@@ -3,23 +3,32 @@
 > 这是 Mentor 系统监督的待办清单。格式规范见文末,Mentor 会定时检查这里的每一项。
 > Checklist 视图(可直接勾选):https://github.com/AdenProSDE2024/claw-code-/issues/1
 
-## 今天(07-13,周一)
+## 今天(07-14,周二)
 
-- [ ] 更新 Monad 的 business stack @due(2026-07-13) @prio(P0)
-- [x] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
-- [x] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)
-
-## 明天(07-14,周二)
-
+- [ ] 更新 Monad 的 business deck @due(2026-07-14) @prio(P0)
 - [ ] 投资人季度小结 ×2 @due(2026-07-14) @prio(P0)
 - [ ] SBC 月底活动:发出全部嘉宾邀请 @due(2026-07-14) @prio(P0)
+- [ ] 给各 foundation reach out 的 draft message(Claude 起草中) @due(2026-07-14) @prio(P1)
+- [ ] 帮 Alexa 转发他们的 blurb @due(2026-07-14) @prio(P1)
 - [ ] 拿到 Rich 对 SBC 月底活动的明确支持 @due(2026-07-14) @prio(P1)
 - [ ] 按上周反馈修改 deck @due(2026-07-14) @prio(P1)
 - [ ] Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况 @due(2026-07-14) @prio(P1)
-- [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-14) @prio(P1)
-- [ ] Solana 社区活动赞助落定 @due(2026-07-14) @prio(P1)
-- [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-14) @prio(P1)
-- [ ] bznz deck:评估并按需修改 @due(2026-07-14) @prio(P2)
+
+## 本周(尽量往前赶)
+
+- [ ] 月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项) @due(2026-07-15) @prio(P0)
+- [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
+- [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
+- [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-15) @prio(P1)
+- [ ] 搞明白 token routing 的事情 @due(2026-07-15) @prio(P1)
+- [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
+
+## 找工(front-load)
+
+- [ ] True North follow-up @due(2026-07-14) @prio(P1)
+- [ ] Jasmin follow-up @due(2026-07-14) @prio(P1)
+- [ ] Plaud:完成 @due(2026-07-14) @prio(P1)
+- [ ] 其他 B 轮公司:完成 list + reach out 模板 @due(2026-07-15) @prio(P1)
 
 ## 每日跟进(确认当天已跟进后,@due 顺延到下一个跟进日)
 
@@ -29,6 +38,9 @@
 
 ## 已完成
 
+- [x] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
+- [x] 自主找人的那家:给对方适当回复 @due(2026-07-14) @prio(P1)
+- [x] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)
 - [x] 示例任务:给 Mentor 系统填入你的第一个真实任务 @due(2026-07-14) @prio(P0)
 - [x] 搭建 Mentor 系统 @due(2026-07-11) @prio(P0)
 

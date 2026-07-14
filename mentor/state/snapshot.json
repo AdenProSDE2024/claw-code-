@@ -1,23 +1,11 @@
 {
-  "updated_at": "2026-07-14T12:05:46Z",
+  "updated_at": "2026-07-14T16:12:46Z",
   "tasks": {
-    "更新 Monad 的 business stack": {
+    "更新 Monad 的 business deck": {
       "done": false,
-      "due": "2026-07-13",
+      "due": "2026-07-14",
       "prio": "P0",
-      "first_seen": "2026-07-13T17:36:25Z"
-    },
-    "整理 Crypto VC potential lead 名单": {
-      "done": true,
-      "due": "2026-07-13",
-      "prio": "P1",
-      "first_seen": "2026-07-13T17:36:25Z"
-    },
-    "邮件确认视频能否发出(配合 Fidelity 宣发)": {
-      "done": true,
-      "due": "2026-07-13",
-      "prio": "P1",
-      "first_seen": "2026-07-13T15:30:29Z"
+      "first_seen": "2026-07-14T16:12:46Z"
     },
     "投资人季度小结 ×2": {
       "done": false,
@@ -30,6 +18,18 @@
       "due": "2026-07-14",
       "prio": "P0",
       "first_seen": "2026-07-13T16:15:34Z"
+    },
+    "给各 foundation reach out 的 draft message(Claude 起草中)": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "帮 Alexa 转发他们的 blurb": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
     },
     "拿到 Rich 对 SBC 月底活动的明确支持": {
       "done": false,
@@ -49,29 +49,65 @@
       "prio": "P1",
       "first_seen": "2026-07-13T15:30:29Z"
     },
+    "月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项)": {
+      "done": false,
+      "due": "2026-07-15",
+      "prio": "P0",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
     "SBC 活动物料:开始制作或明确制作时间线": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
     "Solana 社区活动赞助落定": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
     "起草权益保护协议(保护迄今为止应得的权益)": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
+    "搞明白 token routing 的事情": {
+      "done": false,
+      "due": "2026-07-15",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
     "bznz deck:评估并按需修改": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-15",
       "prio": "P2",
       "first_seen": "2026-07-13T14:52:04Z"
+    },
+    "True North follow-up": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "Jasmin follow-up": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "Plaud:完成": {
+      "done": false,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "其他 B 轮公司:完成 list + reach out 模板": {
+      "done": false,
+      "due": "2026-07-15",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
     },
     "Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度": {
       "done": false,
@@ -90,6 +126,24 @@
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T16:02:48Z"
+    },
+    "整理 Crypto VC potential lead 名单": {
+      "done": true,
+      "due": "2026-07-13",
+      "prio": "P1",
+      "first_seen": "2026-07-13T17:36:25Z"
+    },
+    "自主找人的那家:给对方适当回复": {
+      "done": true,
+      "due": "2026-07-14",
+      "prio": "P1",
+      "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "邮件确认视频能否发出(配合 Fidelity 宣发)": {
+      "done": true,
+      "due": "2026-07-13",
+      "prio": "P1",
+      "first_seen": "2026-07-13T15:30:29Z"
     },
     "示例任务:给 Mentor 系统填入你的第一个真实任务": {
       "done": true,

@@ -37,3 +37,18 @@
 {"ts": "2026-07-13T17:47:07Z", "event": "removed", "task": "投资人季度小结 ×2(今天 17:00 前完成,已上日历)", "was_done": false}
 {"ts": "2026-07-13T17:54:37Z", "event": "completed", "task": "邮件确认视频能否发出(配合 Fidelity 宣发)", "days_open": 0}
 {"ts": "2026-07-14T12:05:46Z", "event": "completed", "task": "整理 Crypto VC potential lead 名单", "days_open": 0}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "更新 Monad 的 business deck", "due": "2026-07-14", "prio": "P0", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "给各 foundation reach out 的 draft message(Claude 起草中)", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "帮 Alexa 转发他们的 blurb", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项)", "due": "2026-07-15", "prio": "P0", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "due_changed", "task": "SBC 活动物料:开始制作或明确制作时间线", "from": "2026-07-14", "to": "2026-07-15"}
+{"ts": "2026-07-14T16:12:46Z", "event": "due_changed", "task": "Solana 社区活动赞助落定", "from": "2026-07-14", "to": "2026-07-15"}
+{"ts": "2026-07-14T16:12:46Z", "event": "due_changed", "task": "起草权益保护协议(保护迄今为止应得的权益)", "from": "2026-07-14", "to": "2026-07-15"}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "搞明白 token routing 的事情", "due": "2026-07-15", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "due_changed", "task": "bznz deck:评估并按需修改", "from": "2026-07-14", "to": "2026-07-15"}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "True North follow-up", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "Jasmin follow-up", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "Plaud:完成", "due": "2026-07-14", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "其他 B 轮公司:完成 list + reach out 模板", "due": "2026-07-15", "prio": "P1", "done": false}
+{"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "自主找人的那家:给对方适当回复", "due": "2026-07-14", "prio": "P1", "done": true}
+{"ts": "2026-07-14T16:12:46Z", "event": "removed", "task": "更新 Monad 的 business stack", "was_done": false}
