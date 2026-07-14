@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-14T23:52:57Z",
+  "updated_at": "2026-07-14T23:55:12Z",
   "tasks": {
     "更新 Monad 的 business deck": {
       "done": false,
-      "due": "2026-07-14",
-      "prio": "P0",
+      "due": "2026-07-15",
+      "prio": "P1",
       "first_seen": "2026-07-14T16:12:46Z"
     },
     "投资人季度小结 ×2": {
       "done": false,
-      "due": "2026-07-14",
-      "prio": "P0",
+      "due": "2026-07-15",
+      "prio": "P1",
       "first_seen": "2026-07-13T17:47:07Z"
     },
     "SBC 月底活动:发出全部嘉宾邀请": {

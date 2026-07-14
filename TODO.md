@@ -5,8 +5,8 @@
 
 ## 今天(07-14,周二)
 
-- [ ] 更新 Monad 的 business deck @due(2026-07-14) @prio(P0)
-- [ ] 投资人季度小结 ×2 @due(2026-07-14) @prio(P0)
+- [ ] 更新 Monad 的 business deck @due(2026-07-15) @prio(P1)
+- [ ] 投资人季度小结 ×2 @due(2026-07-15) @prio(P1)
 - [ ] SBC 月底活动:发出全部嘉宾邀请 @due(2026-07-15) @prio(P0)
   <!-- 进度 07-14:已联系两位 cohost——一位推进 proposal,一位 check 邀请进度;球在对方,待回复后确认全部邀请是否已发出 -->
 - [ ] 给各 foundation reach out 的 draft message(Claude 起草中) @due(2026-07-14) @prio(P1)
