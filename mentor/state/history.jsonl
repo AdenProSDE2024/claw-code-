@@ -36,3 +36,4 @@
 {"ts": "2026-07-13T17:47:07Z", "event": "added", "task": "投资人季度小结 ×2", "due": "2026-07-14", "prio": "P0", "done": false}
 {"ts": "2026-07-13T17:47:07Z", "event": "removed", "task": "投资人季度小结 ×2(今天 17:00 前完成,已上日历)", "was_done": false}
 {"ts": "2026-07-13T17:54:37Z", "event": "completed", "task": "邮件确认视频能否发出(配合 Fidelity 宣发)", "days_open": 0}
+{"ts": "2026-07-14T12:05:46Z", "event": "completed", "task": "整理 Crypto VC potential lead 名单", "days_open": 0}

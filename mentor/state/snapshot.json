@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T01:06:42Z",
+  "updated_at": "2026-07-14T12:05:46Z",
   "tasks": {
     "更新 Monad 的 business stack": {
       "done": false,
@@ -8,7 +8,7 @@
       "first_seen": "2026-07-13T17:36:25Z"
     },
     "整理 Crypto VC potential lead 名单": {
-      "done": false,
+      "done": true,
       "due": "2026-07-13",
       "prio": "P1",
       "first_seen": "2026-07-13T17:36:25Z"

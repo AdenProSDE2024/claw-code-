@@ -6,7 +6,7 @@
 ## 今天(07-13,周一)
 
 - [ ] 更新 Monad 的 business stack @due(2026-07-13) @prio(P0)
-- [ ] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
+- [x] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
 - [x] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)
 
 ## 明天(07-14,周二)
