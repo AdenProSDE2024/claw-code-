@@ -4,6 +4,9 @@ on:
   schedule:
     # UTC 01:00 / 12:00 = 北京时间 09:00 / 20:00,每天早晚各催一次
     - cron: "0 1,12 * * *"
+  push:
+    branches: ["**"]
+    paths: ["TODO.md"]   # 每次 TODO.md 变更即把 Checklist 刷成一致,杜绝漂移
   workflow_dispatch: {}
 
 permissions:
@@ -23,6 +26,15 @@ jobs:
           python3 mentor/mentor.py > report.md
           echo "" >> report.md
           python3 mentor/tracker.py report >> report.md
+
+      - name: Sync checklist (Issue #1) from TODO.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 mentor/sync_issue.py > issue-body.md
+          if [ -s issue-body.md ]; then
+            gh issue edit 1 --repo "$GITHUB_REPOSITORY" --body-file issue-body.md || true
+          fi
 
       - name: Post report to issue
         env:
