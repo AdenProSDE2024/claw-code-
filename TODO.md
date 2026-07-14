@@ -21,7 +21,11 @@
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
 - [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-15) @prio(P1)
-- [ ] 搞明白 token routing 的事情 @due(2026-07-15) @prio(P1)
+- [ ] Token 中转站 × On/Off-Ramp 合作:调研 + 切入策略(总目标) @due(2026-07-16) @prio(P1)
+  <!-- 分三步,见下方 ①②③ -->
+- [ ] ① Token routing / 中转站整体 landscape 摸清 @due(2026-07-15) @prio(P1)
+- [ ] ② 拆解 OpenRouter 及竞对的商业模式与生态 @due(2026-07-15) @prio(P1)
+- [ ] ③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点) @due(2026-07-16) @prio(P1)
 - [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
 
 ## 找工(front-load)
