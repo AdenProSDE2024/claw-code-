@@ -21,11 +21,10 @@
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
 - [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-15) @prio(P1)
-- [ ] Token 中转站 × On/Off-Ramp 合作:调研 + 切入策略(总目标) @due(2026-07-16) @prio(P1)
-  <!-- 分三步,见下方 ①②③ -->
-- [ ] ① Token routing / 中转站整体 landscape 摸清 @due(2026-07-15) @prio(P1)
-- [ ] ② 拆解 OpenRouter 及竞对的商业模式与生态 @due(2026-07-15) @prio(P1)
-- [ ] ③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点) @due(2026-07-16) @prio(P1)
+- [ ] OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进) @due(2026-07-14) @prio(P0)
+  <!-- 完整 context 见 drafts/token-routing-brief.md;可派单到独立 session 执行 -->
+- [ ] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
+- [ ] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
 - [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
 
 ## 找工(front-load)

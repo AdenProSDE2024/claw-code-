@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T22:11:46Z",
+  "updated_at": "2026-07-14T23:52:57Z",
   "tasks": {
     "更新 Monad 的 business deck": {
       "done": false,
@@ -73,29 +73,23 @@
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
-    "Token 中转站 × On/Off-Ramp 合作:调研 + 切入策略(总目标)": {
+    "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)": {
       "done": false,
-      "due": "2026-07-16",
-      "prio": "P1",
-      "first_seen": "2026-07-14T22:11:46Z"
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-14T23:52:57Z"
     },
-    "① Token routing / 中转站整体 landscape 摸清": {
+    "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式": {
       "done": false,
-      "due": "2026-07-15",
-      "prio": "P1",
-      "first_seen": "2026-07-14T22:11:46Z"
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-14T23:52:57Z"
     },
-    "② 拆解 OpenRouter 及竞对的商业模式与生态": {
+    "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter": {
       "done": false,
-      "due": "2026-07-15",
-      "prio": "P1",
-      "first_seen": "2026-07-14T22:11:46Z"
-    },
-    "③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点)": {
-      "done": false,
-      "due": "2026-07-16",
-      "prio": "P1",
-      "first_seen": "2026-07-14T22:11:46Z"
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-14T23:52:57Z"
     },
     "bznz deck:评估并按需修改": {
       "done": false,

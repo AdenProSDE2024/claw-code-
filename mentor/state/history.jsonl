@@ -58,3 +58,10 @@
 {"ts": "2026-07-14T22:11:46Z", "event": "added", "task": "② 拆解 OpenRouter 及竞对的商业模式与生态", "due": "2026-07-15", "prio": "P1", "done": false}
 {"ts": "2026-07-14T22:11:46Z", "event": "added", "task": "③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点)", "due": "2026-07-16", "prio": "P1", "done": false}
 {"ts": "2026-07-14T22:11:46Z", "event": "removed", "task": "搞明白 token routing 的事情", "was_done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "added", "task": "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)", "due": "2026-07-14", "prio": "P0", "done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "added", "task": "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式", "due": "2026-07-14", "prio": "P0", "done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "added", "task": "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter", "due": "2026-07-14", "prio": "P0", "done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "removed", "task": "Token 中转站 × On/Off-Ramp 合作:调研 + 切入策略(总目标)", "was_done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "removed", "task": "① Token routing / 中转站整体 landscape 摸清", "was_done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "removed", "task": "② 拆解 OpenRouter 及竞对的商业模式与生态", "was_done": false}
+{"ts": "2026-07-14T23:52:57Z", "event": "removed", "task": "③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点)", "was_done": false}
