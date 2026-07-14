@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T16:12:46Z",
+  "updated_at": "2026-07-14T22:03:49Z",
   "tasks": {
     "更新 Monad 的 business deck": {
       "done": false,
@@ -15,7 +15,7 @@
     },
     "SBC 月底活动:发出全部嘉宾邀请": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-15",
       "prio": "P0",
       "first_seen": "2026-07-13T16:15:34Z"
     },

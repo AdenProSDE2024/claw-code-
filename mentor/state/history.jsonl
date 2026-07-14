@@ -52,3 +52,4 @@
 {"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "其他 B 轮公司:完成 list + reach out 模板", "due": "2026-07-15", "prio": "P1", "done": false}
 {"ts": "2026-07-14T16:12:46Z", "event": "added", "task": "自主找人的那家:给对方适当回复", "due": "2026-07-14", "prio": "P1", "done": true}
 {"ts": "2026-07-14T16:12:46Z", "event": "removed", "task": "更新 Monad 的 business stack", "was_done": false}
+{"ts": "2026-07-14T22:03:49Z", "event": "due_changed", "task": "SBC 月底活动:发出全部嘉宾邀请", "from": "2026-07-14", "to": "2026-07-15"}
