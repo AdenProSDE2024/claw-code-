@@ -1,4 +1,4 @@
-# Proposal: CrossMint as the Stablecoin Payment Layer for AI Inference — with a Warm Introduction to OpenRouter
+# Proposal: A Stablecoin Payment Pilot for LLM Inference — with a Warm Introduction to OpenRouter
 
 **To:** Head of Partnership, CrossMint
 **From:** [Your name] — Solana ecosystem DeFi & stablecoin partnerships
@@ -9,56 +9,57 @@
 
 ## 1. Background
 
-We work at the intersection of Solana DeFi, stablecoin liquidity, and ecosystem partnerships — most recently helping route stablecoin volume and liquidity incentives for chain partners like **Pharos**. Through that work we've identified a structuring opportunity that sits squarely in CrossMint's wheelhouse: **stablecoin-denominated payment for LLM API usage**.
+We work at the intersection of Solana DeFi, stablecoin liquidity, and ecosystem partnerships. Through a **strategic relationship with Ant Digital**, we're able to bring discounted access to Qwen inference to the right partner — and we want to build a pilot around it.
 
-The trigger is concrete, not speculative: **OpenRouter already accepts USDC and has integrated Coinbase's x402 protocol** for per-request stablecoin settlement — this is live infrastructure, not a roadmap item. Every dollar of that stablecoin volume that touches an on/off-ramp still pays a conversion fee (OpenRouter's own crypto top-up fee runs ~5%, in line with retail on/off-ramp norms). That fee is a real, recurring cost with no natural owner today — which is exactly the gap a payments partner can fill.
+The pilot: **stand up an end-to-end stablecoin payment flow for LLM inference, starting from a discounted Qwen model collaboration.** The natural first partner is a leading LLM gateway that already prices in tokens and already accepts stablecoins — **OpenRouter** being the obvious candidate. Two things make it attractive for them: a cheaper inference source, and a payment flow where **we cover a meaningful share of their stablecoin conversion cost.**
+
+CrossMint is the piece that makes the payment side real, and the reason we're writing to you.
 
 ## 2. Why now — why AI × stablecoins
 
-Two trends are converging:
+- **Agentic AI spend is becoming stablecoin-native.** AI agents increasingly pay for their own compute and API calls programmatically, and stablecoins — not cards, not invoicing — are the natural machine-to-machine rail. This is the thesis behind CrossMint's own agent-payment work.
+- **The lead partner is already there.** OpenRouter already accepts USDC and has integrated Coinbase's x402 protocol for per-request stablecoin settlement — running at an estimated ~$50M annualized revenue on $100M+ of annualized inference spend. This isn't a "convince them to try stablecoins" pitch; the rail is live. The open lever is **cost** — both model cost and conversion cost — and that's exactly what this pilot improves.
 
-- **Agentic AI spend is becoming stablecoin-native.** AI agents increasingly need to pay for their own compute/API calls programmatically, and stablecoins (not cards, not invoicing) are the natural rail for machine-to-machine payment — this is the thesis behind CrossMint's own agent payment work, and behind newer entrants building on protocols like x402.
-- **LLM gateways are usage-metered at massive scale.** OpenRouter alone is running at an estimated ~$50M annualized revenue and $100M+ in annualized inference spend, on a take-rate model with no markup on the underlying model price — meaning its own top-up/conversion fees are one of the few visible levers it has to optimize.
+CrossMint sits at the exact junction: an on/off-ramp and agent-payment provider that already speaks both "stablecoin rails" and "AI agent" fluently, with real enterprise proof points (MoneyGram, Western Union).
 
-CrossMint sits at the exact junction of these two trends: an on/off-ramp and agent-payment infrastructure provider that already speaks both "stablecoin rails" and "AI agent" fluently.
+## 3. How the pilot is structured
 
-## 3. How the pieces fit — the matchmaking structure
-
-| Party | Role | What they get |
+| Layer | What happens | Who provides it |
 |---|---|---|
-| **OpenRouter** (or a comparable LLM gateway) | Already accepts stablecoin payment (USDC, x402) for API/token usage | (a) Its existing ~5% crypto top-up/conversion fee offset via routed volume subsidy; (b) potential access to discounted inference sourcing — an early-stage ecosystem lead we're exploring, flagged here as a possible upside, not a commitment |
-| **Pharos** | Chain ecosystem partner | Reports the incremental on-chain stablecoin volume toward its liquidity/volume KPIs; funds a subsidy sized to that routed volume |
-| **CrossMint** | On/off-ramp + agent payment rail | Becomes the default stablecoin payment layer for a flagship AI-usage use case; captures the transaction volume and the reference case |
-| **Us (orchestrator)** | Designs and connects the flow end-to-end | Take rate to be defined once the structure is validated — deliberately not the topic of this conversation |
+| **Model** | Discounted Qwen inference brought in as the pilot's starting point — a cheaper source for the gateway | Us, via our Ant Digital strategic relationship |
+| **Payment (on/off-ramp)** | End-to-end fiat ↔ stablecoin conversion so the gateway can be paid in stablecoins with minimal friction | **CrossMint** |
+| **Settlement** | The payment flow settles on **Pharos**, routed over our rail | Us (settlement infrastructure) |
+| **Economics** | We offset a meaningful share of the gateway's stablecoin conversion cost, sized to volume | Us |
 
-**The value flow, in one line:** OpenRouter gets paid in stablecoins → that volume routes through Pharos's chain, counting toward Pharos's liquidity KPIs → Pharos funds a volume-based subsidy → the subsidy offsets OpenRouter's on/off-ramp conversion fees → CrossMint is the rail that carries the whole flow and earns the transaction volume.
+**In one line:** we bring the cheaper models and cover part of the payment cost; CrossMint provides the on/off-ramp that carries the flow; settlement runs across our rail on Pharos.
 
-Everyone's incentive is satisfied by the same transaction stream — no side payments, no zero-sum negotiation required to get to yes.
+## 4. The economics (indicative, not a commitment)
 
-## 4. CrossMint's role and upside specifically
+The gateway's own stablecoin top-up/conversion cost runs on the order of ~5%, in line with retail on/off-ramp norms. Against a reference volume on the order of **$50M**, we'd expect to be able to **offset roughly 2–3 percentage points of that conversion cost** — i.e. cover a large share of the gateway's payment friction outright. The exact figure scales with volume and is something we'd size together once the structure is agreed; the point of this note is that the coverage is real and material, not the precise number.
 
-- **What you provide:** the on/off-ramp and agent-payment infrastructure that makes stablecoin-denominated API billing operationally real for OpenRouter — conversion, custody/wallet plumbing, and the agent-payment rails you've already built.
+## 5. CrossMint's role and upside
+
+- **What you provide:** the end-to-end on/off-ramp — fiat ↔ stablecoin conversion, custody/wallet plumbing, and the agent-payment rails you've already built — that makes stablecoin-denominated inference billing operationally real.
 - **What you get:**
-  - A **flagship reference deployment** — "the stablecoin payment layer behind a leading LLM gateway" is a marquee case study for CrossMint's agent-payments narrative.
-  - **Real, recurring transaction volume** at LLM-gateway scale, not a pilot-sized integration.
-  - **First-mover positioning** as the default settlement layer for AI-usage payments before a competitor (Skyfire, Payman, or a Coinbase x402-based flow) claims the position.
-- **What we're asking you to do:** nothing operationally yet. This is a structuring conversation, not an integration request.
+  - A **flagship reference deployment** — "the stablecoin payment layer behind a leading LLM gateway" is a marquee case for CrossMint's agent-payments narrative.
+  - **Real, recurring transaction volume** at gateway scale, not a pilot-sized integration.
+  - **First-mover positioning** as the default settlement layer for AI-usage payments, ahead of Skyfire, Payman, or a raw x402-based flow claiming the spot.
+- **What we're asking you to do:** nothing operationally yet — this is a structuring conversation, not an integration request.
 
-## 5. The ask
+## 6. The ask
 
-We are not asking CrossMint to commit resources or terms today. We're asking for two things:
+Two things:
 
-1. **A conversation** to sanity-check this structure with your team and confirm CrossMint's interest in principle.
-2. **An introduction to your OpenRouter counterpart.** We don't have an existing relationship with OpenRouter; CrossMint's standing partnership context is the natural door-opener. Framed simply: helping us open this door is CrossMint helping itself land a flagship AI-payments deployment.
-
-## 6. What we're deliberately not doing yet
-
-- Not proposing take rates or fee splits — ours, Pharos's subsidy formula, or CrossMint's. The goal right now is to confirm every party can plug into the structure at all; economics get negotiated once that's proven.
-- Not overselling the discounted-inference angle (the Pharos↔Ant Digital↔Qwen relationship) — it's a real lead worth exploring, not a committed benefit, and we'll represent it to OpenRouter with that caveat.
+1. **A conversation** to sanity-check the structure and confirm CrossMint's interest in principle.
+2. **An introduction to your OpenRouter counterpart.** We don't have an existing relationship there; CrossMint's standing partnership context is the natural door-opener. Put plainly: helping us open this door is CrossMint helping itself land a flagship AI-payments deployment.
 
 ## Next steps
 
 - CrossMint: internal read + go/no-go on the introduction.
-- Us: happy to join a call with your OpenRouter contact directly, or to send a short one-pager they can forward internally first — whichever is easier on your end.
+- Us: happy to join a call with your OpenRouter contact directly, or send a short one-pager they can forward internally first — whichever is easier on your end.
 
 Looking forward to your thoughts.
+
+---
+
+*Note: our own take rate / commercials are deliberately out of scope for this conversation — the goal here is to confirm the structure works and everyone can plug in.*
