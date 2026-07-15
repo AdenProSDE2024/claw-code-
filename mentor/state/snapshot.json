@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T23:55:12Z",
+  "updated_at": "2026-07-15T00:26:00Z",
   "tasks": {
     "更新 Monad 的 business deck": {
       "done": false,
@@ -73,24 +73,6 @@
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
-    "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)": {
-      "done": false,
-      "due": "2026-07-14",
-      "prio": "P0",
-      "first_seen": "2026-07-14T23:52:57Z"
-    },
-    "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式": {
-      "done": false,
-      "due": "2026-07-14",
-      "prio": "P0",
-      "first_seen": "2026-07-14T23:52:57Z"
-    },
-    "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter": {
-      "done": false,
-      "due": "2026-07-14",
-      "prio": "P0",
-      "first_seen": "2026-07-14T23:52:57Z"
-    },
     "bznz deck:评估并按需修改": {
       "done": false,
       "due": "2026-07-15",
@@ -138,6 +120,24 @@
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T16:02:48Z"
+    },
+    "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标)": {
+      "done": true,
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-15T00:26:00Z"
+    },
+    "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式": {
+      "done": true,
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-14T23:52:57Z"
+    },
+    "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter": {
+      "done": true,
+      "due": "2026-07-14",
+      "prio": "P0",
+      "first_seen": "2026-07-14T23:52:57Z"
     },
     "整理 Crypto VC potential lead 名单": {
       "done": true,

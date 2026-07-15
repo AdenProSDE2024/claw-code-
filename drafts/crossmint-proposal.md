@@ -11,14 +11,14 @@
 
 We work at the intersection of Solana DeFi, stablecoin liquidity, and ecosystem partnerships — most recently helping route stablecoin volume and liquidity incentives for chain partners like **Pharos**. Through that work we've identified a structuring opportunity that sits squarely in CrossMint's wheelhouse: **stablecoin-denominated payment for LLM API usage**.
 
-The trigger is simple. LLM aggregators/gateways — **OpenRouter** being the category leader — bill developers by token/credit usage and are increasingly exposed to stablecoins as a settlement rail, either directly or through the wallets/agents that consume their API. Every dollar of that volume that touches an on/off-ramp pays a conversion fee. That fee is a real, recurring cost with no natural owner today — which is exactly the gap a payments partner can fill.
+The trigger is concrete, not speculative: **OpenRouter already accepts USDC and has integrated Coinbase's x402 protocol** for per-request stablecoin settlement — this is live infrastructure, not a roadmap item. Every dollar of that stablecoin volume that touches an on/off-ramp still pays a conversion fee (OpenRouter's own crypto top-up fee runs ~5%, in line with retail on/off-ramp norms). That fee is a real, recurring cost with no natural owner today — which is exactly the gap a payments partner can fill.
 
 ## 2. Why now — why AI × stablecoins
 
 Two trends are converging:
 
 - **Agentic AI spend is becoming stablecoin-native.** AI agents increasingly need to pay for their own compute/API calls programmatically, and stablecoins (not cards, not invoicing) are the natural rail for machine-to-machine payment — this is the thesis behind CrossMint's own agent payment work, and behind newer entrants building on protocols like x402.
-- **LLM gateways are usage-metered at massive scale.** OpenRouter-style aggregators process enormous token volumes with thin, transparent margins on top of underlying model costs — meaning fee efficiency (including payment-rail fees) is a direct, visible line item they're motivated to optimize.
+- **LLM gateways are usage-metered at massive scale.** OpenRouter alone is running at an estimated ~$50M annualized revenue and $100M+ in annualized inference spend, on a take-rate model with no markup on the underlying model price — meaning its own top-up/conversion fees are one of the few visible levers it has to optimize.
 
 CrossMint sits at the exact junction of these two trends: an on/off-ramp and agent-payment infrastructure provider that already speaks both "stablecoin rails" and "AI agent" fluently.
 
@@ -26,7 +26,7 @@ CrossMint sits at the exact junction of these two trends: an on/off-ramp and age
 
 | Party | Role | What they get |
 |---|---|---|
-| **OpenRouter** (or a comparable LLM gateway) | Accepts stablecoin payment for API/token usage | (a) On/off-ramp conversion fees offset via routed volume subsidy; (b) potential access to discounted inference sourcing — being explored via an ecosystem relationship, flagged here as an upside, not a commitment |
+| **OpenRouter** (or a comparable LLM gateway) | Already accepts stablecoin payment (USDC, x402) for API/token usage | (a) Its existing ~5% crypto top-up/conversion fee offset via routed volume subsidy; (b) potential access to discounted inference sourcing — an early-stage ecosystem lead we're exploring, flagged here as a possible upside, not a commitment |
 | **Pharos** | Chain ecosystem partner | Reports the incremental on-chain stablecoin volume toward its liquidity/volume KPIs; funds a subsidy sized to that routed volume |
 | **CrossMint** | On/off-ramp + agent payment rail | Becomes the default stablecoin payment layer for a flagship AI-usage use case; captures the transaction volume and the reference case |
 | **Us (orchestrator)** | Designs and connects the flow end-to-end | Take rate to be defined once the structure is validated — deliberately not the topic of this conversation |

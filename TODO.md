@@ -21,10 +21,6 @@
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
 - [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-15) @prio(P1)
-- [ ] OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进) @due(2026-07-14) @prio(P0)
-  <!-- 完整 context 见 drafts/token-routing-brief.md;可派单到独立 session 执行 -->
-- [ ] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
-- [ ] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
 - [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
 
 ## 找工(front-load)
@@ -42,6 +38,12 @@
 
 ## 已完成
 
+- [x] OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进) @due(2026-07-14) @prio(P0)
+  <!-- 完整 context 见 drafts/token-routing-brief.md;产出:drafts/token-landscape.md + drafts/crossmint-proposal.md -->
+- [x] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
+  <!-- drafts/token-landscape.md;关键发现:OpenRouter 已支持 USDC/x402 收款(非"计划中");Pharos-Ant Digital-千问折扣这条杠杆证据不足,已被验证证伪具体版本,proposal 中已谨慎措辞 -->
+- [x] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
+  <!-- drafts/crossmint-proposal.md;1-2 页,面向 Head of Partnership,本阶段不谈抽成 -->
 - [x] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
 - [x] 自主找人的那家:给对方适当回复 @due(2026-07-14) @prio(P1)
 - [x] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)

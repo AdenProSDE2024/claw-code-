@@ -67,3 +67,7 @@
 {"ts": "2026-07-14T23:52:57Z", "event": "removed", "task": "③ 定义我们如何嵌入(On-Ramp/Off-Ramp 合作切入点)", "was_done": false}
 {"ts": "2026-07-14T23:55:12Z", "event": "due_changed", "task": "更新 Monad 的 business deck", "from": "2026-07-14", "to": "2026-07-15"}
 {"ts": "2026-07-14T23:55:12Z", "event": "due_changed", "task": "投资人季度小结 ×2", "from": "2026-07-14", "to": "2026-07-15"}
+{"ts": "2026-07-15T00:26:00Z", "event": "added", "task": "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标)", "due": "2026-07-14", "prio": "P0", "done": true}
+{"ts": "2026-07-15T00:26:00Z", "event": "completed", "task": "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式", "days_open": 0}
+{"ts": "2026-07-15T00:26:00Z", "event": "completed", "task": "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter", "days_open": 0}
+{"ts": "2026-07-15T00:26:00Z", "event": "removed", "task": "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)", "was_done": false}
