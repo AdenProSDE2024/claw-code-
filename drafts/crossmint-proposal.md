@@ -9,7 +9,7 @@
 
 ## 1. Background
 
-We work at the intersection of Solana DeFi, stablecoin liquidity, and ecosystem partnerships. Through a **strategic relationship with Ant Digital**, we're able to bring discounted access to Qwen inference to the right partner — and we want to build a pilot around it.
+We work at the intersection of Solana DeFi, stablecoin liquidity, and ecosystem partnerships. We hold a **strategic partnership with Qwen (Alibaba's Tongyi Qianwen), via Ant Digital**, that lets us bring discounted inference to the right partner — and we want to build a pilot around it.
 
 The pilot: **stand up an end-to-end stablecoin payment flow for LLM inference, starting from a discounted Qwen model collaboration.** The natural first partner is a leading LLM gateway that already prices in tokens and already accepts stablecoins — **OpenRouter** being the obvious candidate. Two things make it attractive for them: a cheaper inference source, and a payment flow where **we cover a meaningful share of their stablecoin conversion cost.**
 
@@ -26,7 +26,7 @@ CrossMint sits at the exact junction: an on/off-ramp and agent-payment provider 
 
 | Layer | What happens | Who provides it |
 |---|---|---|
-| **Model** | Discounted Qwen inference brought in as the pilot's starting point — a cheaper source for the gateway | Us, via our Ant Digital strategic relationship |
+| **Model** | Discounted Qwen inference brought in as the pilot's starting point — a cheaper source for the gateway | Us, via our Qwen / Ant Digital strategic partnership |
 | **Payment (on/off-ramp)** | End-to-end fiat ↔ stablecoin conversion so the gateway can be paid in stablecoins with minimal friction | **CrossMint** |
 | **Settlement** | The payment flow settles on **Pharos**, routed over our rail | Us (settlement infrastructure) |
 | **Economics** | We offset a meaningful share of the gateway's stablecoin conversion cost, sized to volume | Us |
