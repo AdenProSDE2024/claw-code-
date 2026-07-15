@@ -3,8 +3,9 @@
 > 这是 Mentor 系统监督的待办清单。格式规范见文末,Mentor 会定时检查这里的每一项。
 > Checklist 视图(可直接勾选):https://github.com/AdenProSDE2024/claw-code-/issues/1
 
-## 今天(07-14,周二)
+## 今天(07-15,周三)
 
+- [ ] 给 Panga 的投资人 report 做好 @due(2026-07-15) @prio(P0)
 - [ ] 更新 Monad 的 business deck @due(2026-07-15) @prio(P1)
 - [ ] 投资人季度小结 ×2 @due(2026-07-15) @prio(P1)
 - [ ] SBC 月底活动:发出全部嘉宾邀请 @due(2026-07-15) @prio(P0)

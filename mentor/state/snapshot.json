@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-07-15T12:05:52Z",
+  "updated_at": "2026-07-15T15:55:20Z",
   "tasks": {
+    "给 Panga 的投资人 report 做好": {
+      "done": false,
+      "due": "2026-07-15",
+      "prio": "P0",
+      "first_seen": "2026-07-15T15:55:20Z"
+    },
     "更新 Monad 的 business deck": {
       "done": false,
       "due": "2026-07-15",
