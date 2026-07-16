@@ -1,0 +1,365 @@
+<title>Vishwa · Qwen Inference Payment & Settlement Pilot</title>
+<style>
+  :root {
+    --bg: #F5F6F7;
+    --surface: #FFFFFF;
+    --ink: #161A21;
+    --ink-soft: #454C58;
+    --muted: #7B838F;
+    --line: #E2E5E9;
+    --line-soft: #EDEFF2;
+    --accent: #10666F;
+    --accent-ink: #0C4C53;
+    --accent-soft: #E7F0F0;
+    --accent-line: #C7DDDD;
+    --shadow: 0 1px 2px rgba(20,30,40,.04), 0 12px 40px -18px rgba(20,40,45,.18);
+    --serif: Georgia, "Times New Roman", "Songti SC", serif;
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0E1115;
+      --surface: #14181E;
+      --ink: #E9EBEE;
+      --ink-soft: #AAB1BC;
+      --muted: #6C7480;
+      --line: #262B33;
+      --line-soft: #1E232A;
+      --accent: #55B7C1;
+      --accent-ink: #7FCED6;
+      --accent-soft: #14312F;
+      --accent-line: #234A48;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 18px 50px -22px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #F5F6F7; --surface: #FFFFFF; --ink: #161A21; --ink-soft: #454C58;
+    --muted: #7B838F; --line: #E2E5E9; --line-soft: #EDEFF2;
+    --accent: #10666F; --accent-ink: #0C4C53; --accent-soft: #E7F0F0; --accent-line: #C7DDDD;
+    --shadow: 0 1px 2px rgba(20,30,40,.04), 0 12px 40px -18px rgba(20,40,45,.18);
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E1115; --surface: #14181E; --ink: #E9EBEE; --ink-soft: #AAB1BC;
+    --muted: #6C7480; --line: #262B33; --line-soft: #1E232A;
+    --accent: #55B7C1; --accent-ink: #7FCED6; --accent-soft: #14312F; --accent-line: #234A48;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 18px 50px -22px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .page {
+    max-width: 47rem;
+    margin: 0 auto;
+    padding: clamp(1.25rem, 4vw, 3.5rem) clamp(1rem, 4vw, 2rem) 4rem;
+  }
+
+  .sheet {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: clamp(1.5rem, 5vw, 3.75rem);
+  }
+
+  /* ---- Masthead ---- */
+  .masthead { border-bottom: 2px solid var(--ink); padding-bottom: 1.5rem; }
+  .brandrow {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; flex-wrap: wrap;
+    font-family: var(--sans);
+  }
+  .brand {
+    font-weight: 700; font-size: .95rem; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink);
+  }
+  .confidential {
+    font-family: var(--sans); font-size: .66rem; letter-spacing: .13em;
+    text-transform: uppercase; color: var(--accent-ink);
+    border: 1px solid var(--accent-line); background: var(--accent-soft);
+    padding: .3rem .55rem; border-radius: 3px; white-space: nowrap;
+  }
+  .eyebrow {
+    font-family: var(--sans); font-size: .72rem; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--accent); font-weight: 600;
+    margin: 1.75rem 0 .5rem;
+  }
+  h1 {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: clamp(1.55rem, 4.5vw, 2.15rem);
+    line-height: 1.15; letter-spacing: -.01em;
+    text-wrap: balance; margin: 0; color: var(--ink);
+  }
+
+  .meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: .9rem 1.75rem;
+    margin-top: 1.75rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--line-soft);
+    font-family: var(--sans);
+  }
+  .meta dt {
+    font-size: .64rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: .28rem;
+  }
+  .meta dd { margin: 0; font-size: .9rem; color: var(--ink); font-weight: 500; }
+  .meta dd .sub { display:block; color: var(--ink-soft); font-weight: 400; font-size:.82rem; }
+
+  /* ---- Sections ---- */
+  section { margin-top: 2.75rem; }
+  .sec-head { display: flex; align-items: baseline; gap: .7rem; margin-bottom: 1rem; }
+  .sec-num {
+    font-family: var(--sans); font-weight: 700; font-size: .8rem;
+    color: var(--accent); letter-spacing: .04em;
+    border: 1px solid var(--accent-line); background: var(--accent-soft);
+    border-radius: 3px; padding: .12rem .5rem; line-height: 1.4;
+    font-variant-numeric: tabular-nums;
+  }
+  h2 {
+    font-family: var(--sans); font-weight: 650; font-size: 1.2rem;
+    letter-spacing: -.005em; margin: 0; color: var(--ink); text-wrap: balance;
+  }
+  p { margin: 0 0 1rem; color: var(--ink-soft); max-width: 40em; }
+  p.lead { color: var(--ink); }
+
+  /* generic feature list */
+  ul.feat { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+  ul.feat li {
+    position: relative; padding-left: 1.35rem; color: var(--ink-soft);
+    font-size: .96rem;
+  }
+  ul.feat li::before {
+    content: ""; position: absolute; left: 0; top: .62em;
+    width: .5rem; height: .5rem; border-radius: 50%;
+    border: 1.5px solid var(--accent); background: transparent;
+  }
+
+  /* ---- Numbered flow (section 2) ---- */
+  ol.flow { list-style: none; counter-reset: step; margin: 0; padding: 0; display: grid; gap: 0; }
+  ol.flow li {
+    counter-increment: step;
+    position: relative;
+    padding: 1rem 0 1rem 3.25rem;
+    border-top: 1px solid var(--line-soft);
+    color: var(--ink);
+    font-size: .98rem;
+  }
+  ol.flow li:first-child { border-top: none; }
+  ol.flow li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: .95rem;
+    width: 2rem; height: 2rem; border-radius: 50%;
+    display: grid; place-items: center;
+    font-family: var(--sans); font-weight: 700; font-size: .9rem;
+    color: var(--surface); background: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  ol.flow li b { font-family: var(--sans); font-weight: 600; }
+  .flow-note {
+    margin-top: 1rem; font-size: .9rem; color: var(--muted);
+    font-style: italic;
+  }
+
+  /* ---- Partner grids (sections 3 & 4) ---- */
+  .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .card {
+    border: 1px solid var(--line); border-radius: 5px;
+    padding: 1.15rem 1.25rem 1.3rem; background: var(--bg);
+  }
+  .card h3 {
+    font-family: var(--sans); font-size: .78rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--accent-ink); margin: 0 0 .8rem;
+    padding-bottom: .55rem; border-bottom: 1px solid var(--accent-line);
+  }
+  .card ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .card li {
+    position: relative; padding-left: 1.1rem; font-size: .9rem;
+    color: var(--ink-soft); line-height: 1.5;
+  }
+  .card li::before {
+    content: "—"; position: absolute; left: 0; color: var(--accent);
+    font-family: var(--sans);
+  }
+
+  /* ---- Ask (section 5) ---- */
+  ol.ask { margin: 0; padding-left: 1.3rem; display: grid; gap: .65rem; }
+  ol.ask li { color: var(--ink); font-size: .98rem; padding-left: .3rem; }
+  ol.ask li::marker { color: var(--accent); font-family: var(--sans); font-weight: 700; }
+  .closing {
+    margin-top: 1.5rem; padding: 1.1rem 1.25rem;
+    border-left: 3px solid var(--accent); background: var(--accent-soft);
+    border-radius: 0 4px 4px 0;
+    font-family: var(--sans); font-size: .95rem; color: var(--accent-ink);
+  }
+
+  footer {
+    margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line-soft);
+    font-family: var(--sans); font-size: .74rem; color: var(--muted);
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  }
+
+  a { color: var(--accent-ink); }
+  ::selection { background: var(--accent-soft); }
+
+  @media print {
+    body { background: #fff; }
+    .sheet { box-shadow: none; border: none; }
+    .confidential { border-color: #999; }
+  }
+</style>
+
+<div class="page">
+  <article class="sheet">
+
+    <header class="masthead">
+      <div class="brandrow">
+        <span class="brand">Vishwa</span>
+        <span class="confidential">Confidential · Draft for Discussion</span>
+      </div>
+      <p class="eyebrow">Partnership Proposal</p>
+      <h1>Qwen Inference Payment &amp; Settlement Pilot</h1>
+
+      <dl class="meta">
+        <div>
+          <dt>Prepared for</dt>
+          <dd>Crossmint<span class="sub">Head of Partnership</span></dd>
+        </div>
+        <div>
+          <dt>From</dt>
+          <dd>Vishwa<span class="sub">Stablecoin settlement &amp; ecosystem</span></dd>
+        </div>
+        <div>
+          <dt>Launch partner</dt>
+          <dd>OpenRouter<span class="sub">proposed</span></dd>
+        </div>
+        <div>
+          <dt>Objective</dt>
+          <dd>Narrowly scoped pilot<span class="sub">interest &amp; structure</span></dd>
+        </div>
+      </dl>
+    </header>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">01</span><h2>Opportunity</h2></div>
+      <p class="lead">Through our strategic collaboration with Ant Digital, we are exploring a preferred Qwen inference arrangement for leading AI model distribution platforms.</p>
+      <p>We believe OpenRouter could be a strong launch partner given its existing model marketplace, usage-based billing infrastructure, and distribution reach. The proposed pilot would combine:</p>
+      <ul class="feat">
+        <li>Competitive Qwen inference economics</li>
+        <li>Reduced fiat-to-stablecoin conversion costs for eligible Qwen usage</li>
+        <li>End-to-end stablecoin payment and settlement infrastructure</li>
+        <li>Pre-execution authorization and payment guardrails</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">02</span><h2>Proposed Structure</h2></div>
+      <p>For qualifying Qwen inference volume on OpenRouter:</p>
+      <ol class="flow">
+        <li>OpenRouter procures or distributes eligible Qwen inference.</li>
+        <li><b>Crossmint</b> provides the fiat-to-stablecoin on-ramp, off-ramp, wallet, and payment infrastructure.</li>
+        <li><b>Vishwa</b> verifies authorization, budget limits, counterparties, and settlement instructions before each payment is executed.</li>
+        <li>Payments settle on <b>Pharos</b>.</li>
+        <li>OpenRouter receives preferred conversion and settlement economics for the eligible Qwen volume.</li>
+      </ol>
+      <p class="flow-note">The initial pilot would be limited to agreed Qwen models, transaction volumes, and a defined pilot period.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">03</span><h2>Partner Roles</h2></div>
+      <div class="cards">
+        <div class="card">
+          <h3>OpenRouter</h3>
+          <ul>
+            <li>Distribute the selected Qwen models</li>
+            <li>Route eligible inference volume through the proposed payment flow</li>
+            <li>Participate in commercial and technical validation</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Crossmint</h3>
+          <ul>
+            <li>Provide end-to-end fiat and stablecoin conversion</li>
+            <li>Support wallets, payment execution, and fund movement</li>
+            <li>Help define the operational payment architecture</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Vishwa</h3>
+          <ul>
+            <li>Coordinate the Qwen commercial arrangement</li>
+            <li>Provide pre-execution payment and settlement guardrails</li>
+            <li>Coordinate settlement on Pharos</li>
+            <li>Support pilot economics for qualifying Qwen volume</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">04</span><h2>Value to Each Partner</h2></div>
+      <div class="cards">
+        <div class="card">
+          <h3>OpenRouter</h3>
+          <ul>
+            <li>Lower effective cost for eligible Qwen inference</li>
+            <li>Reduced fiat-to-stablecoin conversion friction</li>
+            <li>Access to an additional competitive Qwen supply channel</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Crossmint</h3>
+          <ul>
+            <li>Recurring on-ramp and off-ramp transaction volume</li>
+            <li>A flagship AI inference payment use case</li>
+            <li>Deeper engagement with a leading AI model gateway</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Ant Digital / Qwen</h3>
+          <ul>
+            <li>Incremental model usage and distribution</li>
+            <li>Increased procurement through a leading AI platform</li>
+            <li>A new stablecoin-based settlement channel</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Vishwa &amp; Pharos</h3>
+          <ul>
+            <li>A production agentic-payment workflow</li>
+            <li>Stablecoin settlement volume</li>
+            <li>A repeatable infrastructure model for AI service payments</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-num">05</span><h2>Initial Ask</h2></div>
+      <p>We would like to:</p>
+      <ol class="ask">
+        <li>Confirm whether Crossmint sees a credible role in the proposed payment architecture.</li>
+        <li>Align on the initial fiat-to-stablecoin and stablecoin-to-fiat flow.</li>
+        <li>Request an introduction to the relevant OpenRouter partnerships or provider team.</li>
+        <li>Jointly validate the commercial and technical structure with OpenRouter.</li>
+      </ol>
+      <p class="closing">The immediate objective is not a full integration commitment, but to confirm partner interest and define a narrowly scoped pilot.</p>
+    </section>
+
+    <footer>
+      <span>Vishwa · Qwen Inference Payment &amp; Settlement Pilot</span>
+      <span>Confidential — Draft for Discussion</span>
+    </footer>
+
+  </article>
+</div>
