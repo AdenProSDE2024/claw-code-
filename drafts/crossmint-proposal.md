@@ -1,50 +1,57 @@
 # Proposal: Qwen Inference Payment and Settlement Pilot
 
+**Prepared for:** Crossmint — Head of Partnership
+**From:** Vishwa — Payment verification & settlement orchestration
+**Proposed launch partner:** OpenRouter
+**Status:** Confidential — draft for discussion
+
 ## 1. Opportunity
 
-Through our strategic collaboration with Ant Digital, we are exploring a preferred Qwen inference arrangement for leading AI model distribution platforms.
+Through our strategic collaboration with Ant Digital, we are exploring commercially preferred Qwen inference economics for leading AI model distribution platforms.
 
-We believe OpenRouter could be a strong launch partner given its existing model marketplace, usage-based billing infrastructure, and distribution reach.
+We believe OpenRouter could be a strong launch partner given its model marketplace, usage-based billing infrastructure, and distribution reach.
 
 The proposed pilot would combine:
 
 - Competitive Qwen inference economics
 - Reduced fiat-to-stablecoin conversion costs for eligible Qwen usage
 - End-to-end stablecoin payment and settlement infrastructure
-- Pre-execution authorization and payment guardrails
+- Pre-execution authorization and settlement guardrails
+
+The objective is to lower the effective cost of eligible Qwen inference for OpenRouter while creating a recurring AI-payment flow for Crossmint.
 
 ## 2. Proposed Structure
 
 For qualifying Qwen inference volume on OpenRouter:
 
-1. OpenRouter procures or distributes eligible Qwen inference.
-2. Crossmint provides the fiat-to-stablecoin on-ramp, off-ramp, wallet, and payment infrastructure.
-3. Vishwa verifies authorization, budget limits, counterparties, and settlement instructions before each payment is executed.
+1. Eligible Qwen inference volume is designated for the pilot.
+2. Crossmint provides the required fiat-to-stablecoin and stablecoin-to-fiat conversion, together with payment orchestration infrastructure.
+3. Vishwa verifies payment authorization, budget limits, counterparties, and settlement instructions before execution.
 4. Payments settle on Pharos.
 5. OpenRouter receives preferred conversion and settlement economics for the eligible Qwen volume.
 
-The initial pilot would be limited to agreed Qwen models, transaction volumes, and a defined pilot period.
+The initial pilot would be limited to agreed Qwen models, a defined transaction volume, and a fixed pilot period.
 
 ## 3. Partner Roles
 
 **OpenRouter**
 
-- Distribute the selected Qwen models
-- Route eligible inference volume through the proposed payment flow
+- Designate eligible Qwen inference volume for the pilot
+- Route the associated payment flow through the proposed settlement architecture
 - Participate in commercial and technical validation
 
 **Crossmint**
 
-- Provide end-to-end fiat and stablecoin conversion
-- Support wallets, payment execution, and fund movement
-- Help define the operational payment architecture
+- Provide fiat and stablecoin conversion infrastructure
+- Support payment orchestration and fund movement
+- Define the operational payment architecture together with Vishwa and OpenRouter
 
 **Vishwa**
 
-- Coordinate the Qwen commercial arrangement
+- Facilitate the proposed Qwen commercial arrangement through our strategic collaboration with Ant Digital
 - Provide pre-execution payment and settlement guardrails
 - Coordinate settlement on Pharos
-- Support pilot economics for qualifying Qwen volume
+- Support preferred pilot economics for qualifying Qwen volume
 
 ## 4. Value to Each Partner
 
@@ -64,21 +71,23 @@ The initial pilot would be limited to agreed Qwen models, transaction volumes, a
 
 - Incremental model usage and distribution
 - Increased procurement through a leading AI platform
-- A new stablecoin-based settlement channel
+- A new distribution and settlement pathway for Qwen inference
 
-**Vishwa and Pharos**
+**Vishwa & Pharos**
 
-- A production agentic-payment workflow
-- Stablecoin settlement volume
-- A repeatable infrastructure model for AI service payments
+- A production AI-service payment workflow with pre-execution guardrails
+- Recurring stablecoin settlement volume
+- A repeatable infrastructure model for AI-service payments
 
 ## 5. Initial Ask
 
 We would like to:
 
-1. Confirm whether Crossmint sees a credible role in the proposed payment architecture.
-2. Align on the initial fiat-to-stablecoin and stablecoin-to-fiat flow.
+1. Align on Crossmint's potential role in the proposed payment architecture.
+2. Define the initial fiat-to-stablecoin and stablecoin-to-fiat flow.
 3. Request an introduction to the relevant OpenRouter partnerships or provider team.
 4. Jointly validate the commercial and technical structure with OpenRouter.
 
-The immediate objective is not a full integration commitment, but to confirm partner interest and define a narrowly scoped pilot.
+The immediate objective is to confirm partner interest and define a narrowly scoped pilot, rather than seek a full integration commitment.
+
+Pilot success would be evaluated based on eligible Qwen volume, effective conversion-cost reduction, settlement reliability, and the potential to scale the structure to additional AI-service payments.
