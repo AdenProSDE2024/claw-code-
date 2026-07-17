@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T01:04:16Z",
+  "updated_at": "2026-07-17T01:14:28Z",
   "tasks": {
     "给 Panga 的投资人 report 做好": {
       "done": false,
@@ -79,20 +79,20 @@
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
-    "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)": {
+    "OpenRouter×Pharos×CrossMint 撮合:审阅研究结论 + 拍板发不发 proposal": {
       "done": false,
-      "due": "2026-07-14",
+      "due": "2026-07-16",
       "prio": "P0",
-      "first_seen": "2026-07-14T23:52:57Z"
+      "first_seen": "2026-07-17T01:14:28Z"
     },
     "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式": {
-      "done": false,
+      "done": true,
       "due": "2026-07-14",
       "prio": "P0",
       "first_seen": "2026-07-14T23:52:57Z"
     },
     "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter": {
-      "done": false,
+      "done": true,
       "due": "2026-07-14",
       "prio": "P0",
       "first_seen": "2026-07-14T23:52:57Z"

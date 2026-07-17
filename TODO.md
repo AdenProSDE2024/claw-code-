@@ -22,10 +22,15 @@
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
 - [ ] 起草权益保护协议(保护迄今为止应得的权益) @due(2026-07-15) @prio(P1)
-- [ ] OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进) @due(2026-07-14) @prio(P0)
-  <!-- 完整 context 见 drafts/token-routing-brief.md;可派单到独立 session 执行 -->
-- [ ] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
-- [ ] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
+- [ ] OpenRouter×Pharos×CrossMint 撮合:审阅研究结论 + 拍板发不发 proposal @due(2026-07-16) @prio(P0)
+  <!-- landscape + proposal 已交付(drafts/token-landscape.md, drafts/crossmint-proposal.md)。
+       关键发现:①"conversion fee"口径有歧义,真实机构级摩擦仅 2-8bp,不是 3-5.5%;
+       ②Pharos 链上体量很小(TVL ~$71万),补贴规模可能撑不起 OpenRouter 体量;
+       ③CrossMint↔OpenRouter 的引荐关系未找到公开证据,发proposal前建议先口头确认;
+       ④Pharos↔Ant Digital(ZAN)↔千问 MaaS 渠道是真实的,是最硬的亮点。
+       下一步需要你:选定"补贴"该用哪种口径、跟 CrossMint 对接人先确认引荐关系,再决定发不发。 -->
+- [x] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
+- [x] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
 - [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
 
 ## 找工(front-load)

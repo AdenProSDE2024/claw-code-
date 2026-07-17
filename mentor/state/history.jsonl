@@ -68,3 +68,7 @@
 {"ts": "2026-07-14T23:55:12Z", "event": "due_changed", "task": "更新 Monad 的 business deck", "from": "2026-07-14", "to": "2026-07-15"}
 {"ts": "2026-07-14T23:55:12Z", "event": "due_changed", "task": "投资人季度小结 ×2", "from": "2026-07-14", "to": "2026-07-15"}
 {"ts": "2026-07-15T15:55:20Z", "event": "added", "task": "给 Panga 的投资人 report 做好", "due": "2026-07-15", "prio": "P0", "done": false}
+{"ts": "2026-07-17T01:14:28Z", "event": "added", "task": "OpenRouter×Pharos×CrossMint 撮合:审阅研究结论 + 拍板发不发 proposal", "due": "2026-07-16", "prio": "P0", "done": false}
+{"ts": "2026-07-17T01:14:28Z", "event": "completed", "task": "① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式", "days_open": 2}
+{"ts": "2026-07-17T01:14:28Z", "event": "completed", "task": "② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter", "days_open": 2}
+{"ts": "2026-07-17T01:14:28Z", "event": "removed", "task": "OpenRouter×Pharos×CrossMint 撮合:尽调 + CrossMint proposal(总目标,今天完成好去推进)", "was_done": false}
