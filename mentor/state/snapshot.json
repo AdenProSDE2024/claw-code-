@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-07-17T16:00:55Z",
+  "updated_at": "2026-07-17T21:57:35Z",
   "tasks": {
+    "Private Dinner:确认 venue": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P0",
+      "first_seen": "2026-07-17T21:57:35Z"
+    },
+    "Private Dinner:敲定嘉宾 list": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P0",
+      "first_seen": "2026-07-17T21:57:35Z"
+    },
+    "Private Dinner:写邀请 template": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P0",
+      "first_seen": "2026-07-17T21:57:35Z"
+    },
+    "Private Dinner:建 Luma page": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P0",
+      "first_seen": "2026-07-17T21:57:35Z"
+    },
     "给 Panga 的投资人 report 做好": {
       "done": false,
       "due": "2026-07-15",

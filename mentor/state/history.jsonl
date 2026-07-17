@@ -75,3 +75,7 @@
 {"ts": "2026-07-17T04:43:37Z", "event": "added", "task": "OpenRouter×Pharos×CrossMint 撮合:裁决两版研究冲突 + 拍板发不发 proposal", "due": "2026-07-17", "prio": "P0", "done": false}
 {"ts": "2026-07-17T04:43:37Z", "event": "removed", "task": "OpenRouter×Pharos×CrossMint 撮合:审阅研究结论 + 拍板发不发 proposal", "was_done": false}
 {"ts": "2026-07-17T16:00:55Z", "event": "added", "task": "fal.ai follow up", "due": "2026-07-17", "prio": "P1", "done": false}
+{"ts": "2026-07-17T21:57:35Z", "event": "added", "task": "Private Dinner:确认 venue", "due": "2026-07-17", "prio": "P0", "done": false}
+{"ts": "2026-07-17T21:57:35Z", "event": "added", "task": "Private Dinner:敲定嘉宾 list", "due": "2026-07-17", "prio": "P0", "done": false}
+{"ts": "2026-07-17T21:57:35Z", "event": "added", "task": "Private Dinner:写邀请 template", "due": "2026-07-17", "prio": "P0", "done": false}
+{"ts": "2026-07-17T21:57:35Z", "event": "added", "task": "Private Dinner:建 Luma page", "due": "2026-07-17", "prio": "P0", "done": false}

@@ -3,7 +3,14 @@
 > 这是 Mentor 系统监督的待办清单。格式规范见文末,Mentor 会定时检查这里的每一项。
 > Checklist 视图(可直接勾选):https://github.com/AdenProSDE2024/claw-code-/issues/1
 
-## 今天(07-15,周三)
+## 今天(07-17,周五)—— 今日头号:Private Dinner 四件套
+
+- [ ] Private Dinner:确认 venue @due(2026-07-17) @prio(P0)
+- [ ] Private Dinner:敲定嘉宾 list @due(2026-07-17) @prio(P0)
+- [ ] Private Dinner:写邀请 template @due(2026-07-17) @prio(P0)
+- [ ] Private Dinner:建 Luma page @due(2026-07-17) @prio(P0)
+
+## 之前的待办(仍未清理,非今日头号)
 
 - [ ] 给 Panga 的投资人 report 做好 @due(2026-07-15) @prio(P0)
 - [ ] 更新 Monad 的 business deck @due(2026-07-15) @prio(P1)
