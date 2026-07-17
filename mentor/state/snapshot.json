@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T12:05:30Z",
+  "updated_at": "2026-07-17T16:00:55Z",
   "tasks": {
     "给 Panga 的投资人 report 做好": {
       "done": false,
@@ -126,6 +126,12 @@
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-14T16:12:46Z"
+    },
+    "fal.ai follow up": {
+      "done": false,
+      "due": "2026-07-17",
+      "prio": "P1",
+      "first_seen": "2026-07-17T16:00:55Z"
     },
     "Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度": {
       "done": false,

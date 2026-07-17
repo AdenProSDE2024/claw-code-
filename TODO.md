@@ -43,6 +43,7 @@
 - [ ] Jasmin follow-up @due(2026-07-14) @prio(P1)
 - [ ] Plaud:完成 @due(2026-07-14) @prio(P1)
 - [ ] 其他 B 轮公司:完成 list + reach out 模板 @due(2026-07-15) @prio(P1)
+- [ ] fal.ai follow up @due(2026-07-17) @prio(P1)
 
 ## 每日跟进(确认当天已跟进后,@due 顺延到下一个跟进日)
 
