@@ -28,9 +28,20 @@
 你在仓库 AdenProSDE2024/claw-code-(规则见 CLAUDE.md)。执行任务:「<任务标题>」。
 第一步:先把完成所需的 context 一次性问齐(背景、涉及的人、已有素材、成功标准、格式)。
 第二步:据此执行/起草,文字成果放进 drafts/。
-第三步:完成后在 TODO.md 标记 [x],运行 python3 mentor/tracker.py record,commit 并 push;
-        在 Issue #1 对应任务下留言产出位置。
+第三步:完成后在 TODO.md 标记 [x],运行 python3 mentor/tracker.py record。
+第四步(关键,不要跳过):git checkout main && git pull origin main && 把你的改动合并/重新提交到 main,
+        然后 git push origin main。如果你的环境强制在一个新分支上工作(无法直接 checkout main),
+        完成后必须打开一个指向 main 的 PR 并在回复里明确告诉用户"已开 PR #<号>,需要合并"——
+        **绝不能只 push 到自己的私有分支就结束**,否则看板会话永远看不到你的产出(已发生过一次,
+        另一个 session 交付了内容但停留在孤立分支上一整天没人知道)。
+        在 Issue #1 对应任务下留言产出位置(以及 PR 链接,如果开了 PR 的话)。
 ```
+
+## 防漂移兜底(看板侧)
+
+每小时检查除了 `git pull origin main`,还应 `git fetch --all` 并扫描是否存在 Claude 创建但**未合并进 main** 的分支
+(`origin/claude/*`,排除本分支自身)。如果发现,不要假装没看见——在督促报告里点名,并主动去看那个分支是否已经
+交付了看似"进行中"的任务,避免重复劳动(已发生过一次:同一个任务被两个 session 各自研究了一遍,且结论冲突)。
 
 ## 分工建议(什么派出去、什么自己做)
 
