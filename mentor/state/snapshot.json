@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T12:05:29Z",
+  "updated_at": "2026-07-19T15:06:21Z",
   "tasks": {
     "AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面": {
       "done": false,
@@ -168,6 +168,12 @@
       "due": "2026-07-17",
       "prio": "P1",
       "first_seen": "2026-07-17T16:00:55Z"
+    },
+    "AGI Summit 会后 follow-up:当天加到的人 24h 内 LinkedIn/微信 connect,附一句现场相关的个性化话(趁记忆新)": {
+      "done": false,
+      "due": "2026-07-20",
+      "prio": "P1",
+      "first_seen": "2026-07-19T15:06:21Z"
     },
     "Monet Foundation DeFi TVL deal:每天 17:00-18:00 PT 跟进亚洲侧进度": {
       "done": false,

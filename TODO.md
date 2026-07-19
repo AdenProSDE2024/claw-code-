@@ -8,6 +8,14 @@
 - [ ] AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面 @due(2026-07-19) @prio(P0)
   <!-- 来自另一 session 的调研(drafts/resume-accomplishments.md 附注):Open Sauce(7/17-19)对你融资/创收匹配度≈0,已决定跳过;
        AGI Summit 融资角度不对口(通用 AI VC,非加密 lead 基金)但找工/BD 值得去。 -->
+  <!-- Day2(07-19)现场重点(⚠️ agenda 纯文本粘贴后 Day1/Day2 混线,以下时间点务必用官方 Luma/app 切到 7/19 再核):
+       【找工·最高 ROI】① Aengus Lynch(Anthropic, agentic misalignment 研究员)——进 Anthropic 唯一对口人,讲完立刻堵;
+                       ② Kayvon Beykpour(Macroscope CEO,前 Twitter 产品负责人/Periscope 联创,$40M 早期在招)——全场最值得认识;
+                       ③ Brian Yang 等一队 OpenAI MTS——内推金矿,盯 OpenAI 展位/休息区而非只听台上;
+                       ④ Fireworks AI(Yufei Chen,$250M C 轮猛招 infra/eng)。
+       【BD】Antom(Sandra Li,蚂蚁海外支付 BD)、Snaplii(agentic payments)——仅当项目沾 commerce 才花时间。
+       【融资】通用 AI VC 认识即可,非你 crypto raise 的对口 lead(见上一条);对口的是 Chintan/Emery/fal.ai。
+       【傍晚高光】5:20 "Community to Capital"(Rocky Yu/AGI House——SF builder 网络钥匙,工作+融资两头通)接 5:50 "Pitch"。 -->
 - [ ] 简历战绩草稿一读:标出哪条"不像在说自己"(drafts/resume-accomplishments.md) @due(2026-07-19) @prio(P1)
 
 ## 今天(07-17,周五)—— 今日头号:Private Dinner 四件套
@@ -59,6 +67,8 @@
 - [ ] 其他 B 轮公司:完成 list + reach out 模板 @due(2026-07-15) @prio(P1)
 - [ ] fal.ai follow up @due(2026-07-17) @prio(P1)
   <!-- 可能不用等冷 follow-up 了——AGI Summit(见上方时效性任务)现场应该能堵到 fal.ai 的人,优先走这条 -->
+- [ ] AGI Summit 会后 follow-up:当天加到的人 24h 内 LinkedIn/微信 connect,附一句现场相关的个性化话(趁记忆新) @due(2026-07-20) @prio(P1)
+  <!-- 找工作在会议现场最高杠杆的一步其实在会后:名片/二维码放着不 follow up = 白加。当天晚上或次日早上一次性清完。 -->
 
 ## 每日跟进(确认当天已跟进后,@due 顺延到下一个跟进日)
 
