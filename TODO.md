@@ -3,6 +3,13 @@
 > 这是 Mentor 系统监督的待办清单。格式规范见文末,Mentor 会定时检查这里的每一项。
 > Checklist 视图(可直接勾选):https://github.com/AdenProSDE2024/claw-code-/issues/1
 
+## ⏰ 时效性强,今天/明天错过就没了
+
+- [ ] AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面 @due(2026-07-19) @prio(P0)
+  <!-- 来自另一 session 的调研(drafts/resume-accomplishments.md 附注):Open Sauce(7/17-19)对你融资/创收匹配度≈0,已决定跳过;
+       AGI Summit 融资角度不对口(通用 AI VC,非加密 lead 基金)但找工/BD 值得去。 -->
+- [ ] 简历战绩草稿一读:标出哪条"不像在说自己"(drafts/resume-accomplishments.md) @due(2026-07-19) @prio(P1)
+
 ## 今天(07-17,周五)—— 今日头号:Private Dinner 四件套
 
 - [ ] Private Dinner:确认 venue @due(2026-07-17) @prio(P0)
@@ -51,6 +58,7 @@
 - [ ] Plaud:完成 @due(2026-07-14) @prio(P1)
 - [ ] 其他 B 轮公司:完成 list + reach out 模板 @due(2026-07-15) @prio(P1)
 - [ ] fal.ai follow up @due(2026-07-17) @prio(P1)
+  <!-- 可能不用等冷 follow-up 了——AGI Summit(见上方时效性任务)现场应该能堵到 fal.ai 的人,优先走这条 -->
 
 ## 每日跟进(确认当天已跟进后,@due 顺延到下一个跟进日)
 

@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-07-18T12:04:44Z",
+  "updated_at": "2026-07-19T01:05:37Z",
   "tasks": {
+    "AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面": {
+      "done": false,
+      "due": "2026-07-19",
+      "prio": "P0",
+      "first_seen": "2026-07-19T01:05:37Z"
+    },
+    "简历战绩草稿一读:标出哪条\"不像在说自己\"(drafts/resume-accomplishments.md)": {
+      "done": false,
+      "due": "2026-07-19",
+      "prio": "P1",
+      "first_seen": "2026-07-19T01:05:37Z"
+    },
     "Private Dinner:确认 venue": {
       "done": false,
       "due": "2026-07-17",
