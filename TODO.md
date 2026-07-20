@@ -5,7 +5,8 @@
 
 ## ⏰ 时效性强,今天/明天错过就没了
 
-- [ ] AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面 @due(2026-07-19) @prio(P0)
+- [x] AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面 @due(2026-07-19) @prio(P0)
+  <!-- 07-20:活动体验很差,但去了、有一些收获,交差。不追加评价。 -->
   <!-- 来自另一 session 的调研(drafts/resume-accomplishments.md 附注):Open Sauce(7/17-19)对你融资/创收匹配度≈0,已决定跳过;
        AGI Summit 融资角度不对口(通用 AI VC,非加密 lead 基金)但找工/BD 值得去。 -->
   <!-- Day2(07-19)现场重点(⚠️ agenda 纯文本粘贴后 Day1/Day2 混线,以下时间点务必用官方 Luma/app 切到 7/19 再核):
