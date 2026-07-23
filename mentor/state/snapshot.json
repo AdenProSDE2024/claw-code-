@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T01:04:13Z",
+  "updated_at": "2026-07-23T01:20:27Z",
   "tasks": {
     "AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面": {
       "done": true,
@@ -14,28 +14,34 @@
       "first_seen": "2026-07-19T01:05:37Z"
     },
     "Private Dinner:确认 venue": {
-      "done": false,
+      "done": true,
       "due": "2026-07-17",
       "prio": "P0",
       "first_seen": "2026-07-17T21:57:35Z"
     },
     "Private Dinner:敲定嘉宾 list": {
-      "done": false,
+      "done": true,
       "due": "2026-07-17",
       "prio": "P0",
       "first_seen": "2026-07-17T21:57:35Z"
     },
     "Private Dinner:写邀请 template": {
-      "done": false,
+      "done": true,
       "due": "2026-07-17",
       "prio": "P0",
       "first_seen": "2026-07-17T21:57:35Z"
     },
     "Private Dinner:建 Luma page": {
-      "done": false,
+      "done": true,
       "due": "2026-07-17",
       "prio": "P0",
       "first_seen": "2026-07-17T21:57:35Z"
+    },
+    "Private Dinner:finalize 部分嘉宾的具体时间点": {
+      "done": false,
+      "due": "2026-07-23",
+      "prio": "P1",
+      "first_seen": "2026-07-23T01:20:27Z"
     },
     "给 Panga 的投资人 report 做好": {
       "done": false,
@@ -68,7 +74,7 @@
       "first_seen": "2026-07-14T16:12:46Z"
     },
     "帮 Alexa 转发他们的 blurb": {
-      "done": false,
+      "done": true,
       "due": "2026-07-14",
       "prio": "P1",
       "first_seen": "2026-07-14T16:12:46Z"
@@ -86,10 +92,16 @@
       "first_seen": "2026-07-13T14:52:04Z"
     },
     "Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况": {
-      "done": false,
+      "done": true,
       "due": "2026-07-14",
       "prio": "P1",
       "first_seen": "2026-07-13T15:30:29Z"
+    },
+    "Rift Demo 时间线": {
+      "done": false,
+      "due": "2026-07-23",
+      "prio": "P1",
+      "first_seen": "2026-07-23T01:20:27Z"
     },
     "月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项)": {
       "done": false,
@@ -134,7 +146,7 @@
       "first_seen": "2026-07-14T23:52:57Z"
     },
     "bznz deck:评估并按需修改": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P2",
       "first_seen": "2026-07-13T14:52:04Z"

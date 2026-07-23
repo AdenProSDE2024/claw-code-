@@ -21,10 +21,11 @@
 
 ## 今天(07-17,周五)—— 今日头号:Private Dinner 四件套
 
-- [ ] Private Dinner:确认 venue @due(2026-07-17) @prio(P0)
-- [ ] Private Dinner:敲定嘉宾 list @due(2026-07-17) @prio(P0)
-- [ ] Private Dinner:写邀请 template @due(2026-07-17) @prio(P0)
-- [ ] Private Dinner:建 Luma page @due(2026-07-17) @prio(P0)
+- [x] Private Dinner:确认 venue @due(2026-07-17) @prio(P0)
+- [x] Private Dinner:敲定嘉宾 list @due(2026-07-17) @prio(P0)
+- [x] Private Dinner:写邀请 template @due(2026-07-17) @prio(P0)
+- [x] Private Dinner:建 Luma page @due(2026-07-17) @prio(P0)
+- [ ] Private Dinner:finalize 部分嘉宾的具体时间点 @due(2026-07-23) @prio(P1)
 
 ## 之前的待办(仍未清理,非今日头号)
 
@@ -34,13 +35,15 @@
 - [ ] SBC 月底活动:发出全部嘉宾邀请 @due(2026-07-15) @prio(P0)
   <!-- 进度 07-14:已联系两位 cohost——一位推进 proposal,一位 check 邀请进度;球在对方,待回复后确认全部邀请是否已发出 -->
 - [ ] 给各 foundation reach out 的 draft message(Claude 起草中) @due(2026-07-14) @prio(P1)
-- [ ] 帮 Alexa 转发他们的 blurb @due(2026-07-14) @prio(P1)
+- [x] 帮 Alexa 转发他们的 blurb @due(2026-07-14) @prio(P1)
 - [ ] 拿到 Rich 对 SBC 月底活动的明确支持 @due(2026-07-14) @prio(P1)
 - [ ] 按上周反馈修改 deck @due(2026-07-14) @prio(P1)
-- [ ] Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况 @due(2026-07-14) @prio(P1)
+- [x] Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况 @due(2026-07-14) @prio(P1)
 
 ## 本周(尽量往前赶)
 
+- [ ] Rift Demo 时间线 @due(2026-07-23) @prio(P1)
+  <!-- 占位:具体里程碑/日期待补充,用户只说了要建这条任务,还没给出时间线内容 -->
 - [ ] 月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项) @due(2026-07-15) @prio(P0)
 - [ ] SBC 活动物料:开始制作或明确制作时间线 @due(2026-07-15) @prio(P1)
 - [ ] Solana 社区活动赞助落定 @due(2026-07-15) @prio(P1)
@@ -58,7 +61,7 @@
        建议:看分支版本的 proposal(措辞更收敛、更安全),核实 Pharos 融资真相后再定稿,别用带幻觉风险的版本发出去。 -->
 - [x] ① 行业 landscape:LLM 中转站(OpenRouter 及竞对)× 稳定币收款 × on/off-ramp 玩法与商业模式 @due(2026-07-14) @prio(P0)
 - [x] ② 给 CrossMint 出 proposal:讲清其角色/参与方式 + 请求引荐 OpenRouter @due(2026-07-14) @prio(P0)
-- [ ] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
+- [x] bznz deck:评估并按需修改 @due(2026-07-15) @prio(P2)
 
 ## 找工(front-load)
 
