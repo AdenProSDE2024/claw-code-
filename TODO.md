@@ -82,6 +82,12 @@
 
 ## 已完成
 
+- [x] 电影票 App 市场调研:跨场次座位筛选痛点 + 选座 Agent 可行性 @due(2026-08-02) @prio(P2)
+  <!-- 产出:drafts/movie-ticket-agent-research.md。结论:痛点真空但瓶颈在数据授权,不在 UI;
+       合法座位级数据只对 AMC 开放(Seating API v3 + vendor key),MovieGlu 明确不提供选座,Vista 需影院授权。
+       已有先例:SeatDrop(退票捡漏,只通知不成交)、hxbib/amc-plus(开源,座位打分+连座+自动占座,已跑通)。
+       建议只做私人工具、不做产品。待用户确认三件事:① 实机复核 Fandango Seat Map Preview 到底是不是一屏多场次
+       (唯一没验证死的关键事实)② 常去影院是不是 AMC ③ 场景是"日常减少筛选"还是"热门片抢好座"。 -->
 - [x] 整理 Crypto VC potential lead 名单 @due(2026-07-13) @prio(P1)
 - [x] 自主找人的那家:给对方适当回复 @due(2026-07-14) @prio(P1)
 - [x] 邮件确认视频能否发出(配合 Fidelity 宣发) @due(2026-07-13) @prio(P1)

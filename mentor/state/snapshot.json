@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T12:05:41Z",
+  "updated_at": "2026-08-02T18:10:26Z",
   "tasks": {
     "AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面": {
       "done": true,
@@ -204,6 +204,12 @@
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T16:02:48Z"
+    },
+    "电影票 App 市场调研:跨场次座位筛选痛点 + 选座 Agent 可行性": {
+      "done": true,
+      "due": "2026-08-02",
+      "prio": "P2",
+      "first_seen": "2026-08-02T18:10:26Z"
     },
     "整理 Crypto VC potential lead 名单": {
       "done": true,

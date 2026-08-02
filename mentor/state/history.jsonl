@@ -92,3 +92,4 @@
 {"ts": "2026-07-23T01:20:27Z", "event": "completed", "task": "Fidelity 相关 LinkedIn post follow-up:跟进宣发进度和情况", "days_open": 9}
 {"ts": "2026-07-23T01:20:27Z", "event": "added", "task": "Rift Demo 时间线", "due": "2026-07-23", "prio": "P1", "done": false}
 {"ts": "2026-07-23T01:20:27Z", "event": "completed", "task": "bznz deck:评估并按需修改", "days_open": 9}
+{"ts": "2026-08-02T18:10:26Z", "event": "added", "task": "电影票 App 市场调研:跨场次座位筛选痛点 + 选座 Agent 可行性", "due": "2026-08-02", "prio": "P2", "done": true}
