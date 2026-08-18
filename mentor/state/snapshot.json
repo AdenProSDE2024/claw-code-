@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T01:06:00Z",
+  "updated_at": "2026-08-18T01:36:00Z",
   "tasks": {
     "AGI Summit(7/18-19,Palace of Fine Arts):去半天堵人——Chintan Turakhia(Coinbase Wallet+AI)、Emery Han(Stripe platforms)、fal.ai 的人,冷 reach-out 变面对面": {
       "done": true,
@@ -44,25 +44,25 @@
       "first_seen": "2026-07-23T01:20:27Z"
     },
     "给 Panga 的投资人 report 做好": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P0",
       "first_seen": "2026-07-15T15:55:20Z"
     },
     "更新 Monad 的 business deck": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-14T16:12:46Z"
     },
     "投资人季度小结 ×2": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T17:47:07Z"
     },
     "SBC 月底活动:发出全部嘉宾邀请": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P0",
       "first_seen": "2026-07-13T16:15:34Z"
@@ -104,25 +104,25 @@
       "first_seen": "2026-07-23T01:20:27Z"
     },
     "月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项)": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P0",
       "first_seen": "2026-07-14T16:12:46Z"
     },
     "SBC 活动物料:开始制作或明确制作时间线": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
     "Solana 社区活动赞助落定": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
     },
     "起草权益保护协议(保护迄今为止应得的权益)": {
-      "done": false,
+      "done": true,
       "due": "2026-07-15",
       "prio": "P1",
       "first_seen": "2026-07-13T14:52:04Z"
@@ -201,7 +201,7 @@
     },
     "STBL MOU:每 48 小时 check 一次进展": {
       "done": false,
-      "due": "2026-07-15",
+      "due": "2026-08-19",
       "prio": "P1",
       "first_seen": "2026-07-13T16:02:48Z"
     },

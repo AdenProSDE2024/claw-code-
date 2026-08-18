@@ -93,3 +93,12 @@
 {"ts": "2026-07-23T01:20:27Z", "event": "added", "task": "Rift Demo 时间线", "due": "2026-07-23", "prio": "P1", "done": false}
 {"ts": "2026-07-23T01:20:27Z", "event": "completed", "task": "bznz deck:评估并按需修改", "days_open": 9}
 {"ts": "2026-08-02T18:10:26Z", "event": "added", "task": "电影票 App 市场调研:跨场次座位筛选痛点 + 选座 Agent 可行性", "due": "2026-08-02", "prio": "P2", "done": true}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "给 Panga 的投资人 report 做好", "days_open": 33}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "更新 Monad 的 business deck", "days_open": 34}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "投资人季度小结 ×2", "days_open": 35}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "SBC 月底活动:发出全部嘉宾邀请", "days_open": 35}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "月底活动:向 Kun 和 Cambrian 提 proposal 并 follow up(年度关键项)", "days_open": 34}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "SBC 活动物料:开始制作或明确制作时间线", "days_open": 35}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "Solana 社区活动赞助落定", "days_open": 35}
+{"ts": "2026-08-18T01:36:00Z", "event": "completed", "task": "起草权益保护协议(保护迄今为止应得的权益)", "days_open": 35}
+{"ts": "2026-08-18T01:36:00Z", "event": "due_changed", "task": "STBL MOU:每 48 小时 check 一次进展", "from": "2026-07-15", "to": "2026-08-19"}
